@@ -1,0 +1,91 @@
+{
+  "variable": {
+    "ee-network": {
+      "default": "vpc-ee-network"
+    },
+    "ee-network-description": {
+      "default": "created for EE"
+    },
+    "ee-project-id": {
+      "default": "project-22158"
+    },
+    "ee-network-routing-mode": {
+      "default": "GLOBAL"
+    },
+    "ee-subnetwork-public": {
+      "default": "ee-public-subnet"
+    },
+    "ee-subnetwork-public-cidr": {
+      "default": "172.20.10.0/24"
+    },
+    "ee-machinetype-jenkins": {
+      "default": "n1-standard-2"
+    },
+    "ee-node-app-machinename": {
+      "default": "ee-node-appnode"
+    },
+    "ee-machinetype-appnode": {
+      "default": "g1-small"
+    },
+    "ee-nodecount": {
+      "default": 1
+    },
+    "ee-region": {
+      "default": "asia-south1"
+    },
+    "ee-zone": {
+      "default": "asia-south1-a"
+    },
+    "ee-machine-image": {
+      "default": "ubuntu-1804-lts"
+    },
+    "ee-machine-appnode-customscript": {
+      "default": "sudo /bin/bash -c 'apt-get update -y && sudo apt-get install -qy docker.io'"
+    },
+    "ee-metadata-tag": {
+      "default": "ee-user"
+    },
+    "ee-tag-http": {
+      "default": "http"
+    },
+    "ee-firewall-tcp-8080": {
+      "default": "ee-firewall-tcp-8080"
+    },
+    "ee-tag-ssh": {
+      "default": "ssh"
+    },
+    "ee-tag": {
+      "default": "ee-script"
+    },
+    "tag-app-node": {
+      "default": "app-node"
+    },
+    "ee-subnetwork-private-cidr": {
+      "default": "172.20.20.0/24"
+    },
+    "ee-subnetwork-private": {
+      "default": "ee-subnetwork-private"
+    },
+    "ee-jenkins-port": {
+      "default": "8080"
+    },
+    "ee-firewall-tcp-22": {
+      "default": "ee-firewall-tcp-22"
+    },
+    "ee-firewall-tcp": {
+      "default": "tcp"
+    },
+    "ee-ssh-port": {
+      "default": "22"
+    },
+    "ee-node-jenkins-machinename": {
+      "default" : "ee-node-jenkins"
+    },
+    "ee-tag-jenkins": {
+      "default" : "jenkins" 
+    },
+    "ee-extip-jenkins": {
+      "default" : "ee-extip-jenkins"
+    }
+  }
+}

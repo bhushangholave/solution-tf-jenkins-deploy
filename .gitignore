@@ -1,0 +1,5 @@
+01-create-gcp-compute/creads/serviceaccount1.json
+01-create-gcp-compute/.terraform/*
+01-create-gcp-compute/terraform.tfstate
+01-create-gcp-compute/terraform.tfstate.backup
+01-create-gcp-compute/.terraform.tfstate.lock.info
