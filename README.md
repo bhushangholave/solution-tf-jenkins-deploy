@@ -9,9 +9,9 @@ Ansible.
 
 Please change default values as per your project and requirements in 01-create-gcp-compute/variable.tf.json
 
-# If you dont want to do all the variable change just change the projectid variable ee-project-id/ TF_VAR_ee-project-id to your google cloud projectid 
+If you dont want to do all the variable change just change the projectid variable ee-project-id/ TF_VAR_ee-project-id to your google cloud projectid 
 
-# Follow below instructions with after command git clone git@github.com:bhushangholave/solution-tf-jenkins-deploy.git
+Follow below instructions with after command git clone git@github.com:bhushangholave/solution-tf-jenkins-deploy.git
 
 ```
 cd 01-create-gcp-compute
