@@ -1,7 +1,7 @@
 # solution-tf-jenkins-deploy
 solution for jenkins and node deployment with script using terraform
 
-![Image of problem](https://github.com/bhushangholave/solution-tf-jenkins-deploy/images/solution1.png)
+![Image of problem](https://github.com/bhushangholave/solution-tf-jenkins-deploy/blob/master/images/solution1.png)
 
 Problem statement 1: Using any IaC (Terraform) create the same infra which is depicted
 above. In this you also need to use the userdata to install the Jenkins and
