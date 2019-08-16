@@ -3,3 +3,5 @@
 01-create-gcp-compute/terraform.tfstate
 01-create-gcp-compute/terraform.tfstate.backup
 01-create-gcp-compute/.terraform.tfstate.lock.info
+.DS_Store
+.vscode/
