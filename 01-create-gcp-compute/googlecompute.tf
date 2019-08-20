@@ -27,7 +27,7 @@ resource "google_compute_subnetwork" "private-subnetwork" {
 resource "google_compute_address" "ee_reserve_ip" {
   name         = "${var.ee-extip-jenkins}"
   region       = "${var.ee-region}"
-  subnetwork   = "projects/${var.ee-project-id}/regions/${var.ee-region}/subnetworks/${var.ee-subnetwork-public}"
+  //subnetwork   = "projects/${var.ee-project-id}/regions/${var.ee-region}/subnetworks/${var.ee-subnetwork-public}"
   project      = "${var.ee-project-id}"
 }
 
