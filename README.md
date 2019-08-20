@@ -16,6 +16,8 @@ Follow below instructions with after command git clone git@github.com:bhushangho
 ```
 cd 01-create-gcp-compute
 
+terraform init
+
 ## Set Variables
 export TF_VAR_ee-network = "vpc-ee-network"
 export TF_VAR_ee-network-description = "created for EE"
